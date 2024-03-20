@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!--Menu centralizado-->
+        <h1>Meu Portfólio</h1>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="trabalhos.html">Trabalho</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="entre-contato">Entre em Contato:</h2>
+        <form id="formulario">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite seu nome" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Digite seu email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required></textarea>
+            </div>
+            <div>
+                <input id="enviar-contato" type="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+
+    <!--Rodapé simples-->
+    <footer>
+        <p>&copy; Gabriel José 2024 Meu Site</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
